@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Mattia\'s Blog',
+  title: "Mattia's blog",
   author: 'Mattia Peretti',
-  headerTitle: 'Mattia\'s blog',
+  headerTitle: "Mattia's blog",
   description: 'A blog about technology and software engineering',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -12,12 +12,12 @@ const siteMetadata = {
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'address@yoursite.com',
-  github: 'https://github.com',
+  github: 'https://github.com/foxbit19',
   x: 'https://twitter.com/foxbit19',
   // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/mattiaperetti',
   threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
   locale: 'en-US',

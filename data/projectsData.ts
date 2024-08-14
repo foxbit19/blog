@@ -6,15 +6,13 @@ interface Project {
 }
 
 const projectsData: Project[] = [
-  /* {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
   {
+    title: 'SoloImpact',
+    description: `SoloImpact is a task management app designed specifically for solopreneurs. It helps you prioritize your daily tasks by assigning them an impact score, allowing you to focus on what truly matters for your business.`,
+    imgSrc: '/static/images/soloimpact.png',
+    href: 'https://soloimpact.vercel.app',
+  },
+  /*{
     title: 'The Time Machine',
     description: `Imagine being able to travel back in time or to the future. Simple turn the knob
     to the desired date and press "Go". No more worrying about lost keys or

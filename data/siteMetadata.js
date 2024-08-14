@@ -3,7 +3,7 @@ const siteMetadata = {
   title: "Mattia's blog",
   author: 'Mattia Peretti',
   headerTitle: "Mattia's blog",
-  description: 'A blog about technology and software engineering',
+  description: 'I write articles about technology and software engineering',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://mattiaperetti.it',

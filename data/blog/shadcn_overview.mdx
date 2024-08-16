@@ -1,0 +1,88 @@
+---
+title: A short overview of Shadcn UI
+date: '2024-08-16'
+tags: ['nextjs', 'ui']
+draft: false
+summary: Introduction of Shadcn UI, a components collection of reusable React components that can be copied directly into projects and used across various frameworks with Tailwind CSS.
+---
+
+## Introduction
+
+When talking about React component libraries, the discussion can become quite broad. In fact, there are over 50 React UI component libraries available, including popular and widely used libraries as well as smaller, niche ones.
+
+## Library vs components collection
+
+A component library is a package (or a set of packages) distributed via npm that you can import as a dependency and integrate into your app. Each component provided by the package is (usually) well-documented and has a set of typed arguments.
+
+A component collection is a little different: nothing needs to be installed as a dependency, and each component is copied into the project as a file.
+
+As Shadcn's introduction states:
+
+```
+This is NOT a component library. It's a collection of re-usable components that you can copy and paste into your apps.
+[...]
+It is not available or distributed via npm.
+
+Pick the components you need. Copy and paste the code into your project and customize to your needs. The code is yours.
+```
+
+See the difference?
+
+## List of components
+
+![Components](/static/images/shadcn/components.png)
+
+This image does not lists all the components but check out [the website](https://ui.shadcn.com/docs/components/accordion). Trust me, you have everything you need to develop a modern web app.
+
+## How to use a component
+
+The developer provides a tool to install a component directly inside out `components/ui` folder.
+You can easly "install"[^1] a components using this command:
+
+```
+pnpm dlx shadcn-ui@latest add card
+```
+
+The components is now locally available and can be imported:
+
+```
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+```
+
+If necessary you can customize the component as you prefer. The choice is yours.
+
+## Framework support and requirements
+
+![frameworks](/static/images/shadcn/frameworks.png)
+You can use Shadcn UI on different React framework and... Laravel. Yes it works on laravel too.
+
+It requires Tailwind CSS to work correctly, so make sure to install and configure it.
+
+## Use for personal and commercial project
+
+The developer writes:
+
+```
+Free to use for personal and commercial projects. No attribution required.
+```
+
+So feel free to use it in your project.
+
+## Conclusion
+
+I've recently started exploring this set of components. I find them well-written and well-designed.
+
+This UI collection can help a developer create modern, responsive web applications.
+
+## Reference
+
+- [Shadcn UI](https://ui.shadcn.com/)
+
+[^1]: Remember that the component is not installed as a dependency; instead, its code is copied into your project.
